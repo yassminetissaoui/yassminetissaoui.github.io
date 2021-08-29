@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+ line-height: 1.2;
+
+font-family: 'Anonymous Pro', monospace;
+}
+html{scroll-behavior:smooth}
+#header {
+   position: fixed;
+   display: flex;
+    background: white;
+ 
+    z-index: 100;
+    overflow: none;
+    top: 0vw;
+    left: 0;
+    /* border-bottom: 4px solid black; */
+    width: 100%;
+     animation: pulse 1s;
+border-bottom: 2px solid black;
+transition: 0.2s all ease-in-out;
+flex-wrap: wrap;
+
+font-size: 1.2em;
+font-family: 'Anonymous Pro', monospace;
+letter-spacing: -0.5px;
+font-weight: 400;
+padding: 0.9em;
+height: auto;
+ text-align: center;
+   align-items: center;
+}
+
+
+
+h1 strong {
+  letter-spacing: 0px;
+font-family: martel, serif;
+font-weight: 800;
+
+}
+
+
+ 
+
+}
+@keyframes pulse {
+  0% {
+    background-color: #F97878;
+  }
+  100% {
+    background-color: #fff;
+  }
+
+}
+#header a {
+  color: black	;
+  text-align: center;
+  text-decoration: none;
+    padding: 0.5em 0.5em;
+}
+
+#logo{
+  height: 60px;
+  width: auto;
+    margin: 0px;
+    transition: 0.2s all ease-in-out;
+}
+
+#modal {
+ margin-left: auto;
+ text-decoration: underline;
+ text-decoration-style: solid;
+
+ right: 0;
+   transition: 0.5s all ease-in-out;
+
+}
+#header div:last-child {
+ margin-left: auto;
+}
+
+#modal:hover {
+  
+ transform: scale(1.1) translate(0px);
+  transition: 0.5s all ease-in-out;
+  color: #7845136;
+}
+
+
+#border {
+  border: 2px solid black;
+  padding: 0.3em 0.1em 0.3em 0.1em;
+ 
+   transition: 0.5s all ease-in-out;
+}
+
+#border:hover {
+  background-color: #F97878 ;
+
+  transition: 0.5s all ease-in-out;
+}
+
+#content {
+ 
+  display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 100px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+
+    
+    
+}
+
+#content li {
+width: 50%;
+padding: 1em 1em;
+border-left:  0px solid #FFCACA;
+border-bottom:  0px solid #FFCACA;
+}
+
+
+.container {
+display: flex;
+position: absolute;
+  z-index: 600;
+  top: 460px; 
+  
+
+}
+
+
+.container2 {
+display: flex;
+position: absolute;
+  z-index: 600;
+  top: 995px; 
+  
+
+}
+
+
+
+button {
+  opacity: 1;
+  font-style: italic;
+  z-index: 600;
+  font-size: 1.1em;
+  font: 'Anonymous Pro', monospace;
+  line-height: 1;
+  width: 100%;
+  padding: 1em 0.5em;
+  border: 0px;
+  background-color: white;
+letter-spacing: 2px;
+transition: 0.2s all ease-in-out;
+}
+
+.title {
+  opacity: 1;
+  font-style: italic;
+
+  z-index: 600;
+  font-size: 1.4em;
+  font: ''Anonymous Pro', monospace';
+  line-height: 1;
+  width: 100%;
+  padding: 0.7em 0.7em;
+  border: 0px;
+  background-color: white;
+letter-spacing: 0.5px;
+transition: 0.2s all ease-in-out;
+}
+
+
+ .thumbnail {
+   overflow: hidden;
+   display: block;
+  margin: 0 auto;
+            width: 100%;
+            height: 50vh;
+           
+        }
+      
+        .thumbnail img {
+            width: 100%;
+            transition: 0.5s all ease-in-out;
+
+        }
+      
+        .thumbnail:hover img {
+            transform: scale(1.5) rotate(10deg);
+        }
+       
+
+
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  transition: 0.2s all ease-in-out;
+}
+
+
+
+
+
+
+#apropos {
+  width: 105vw;
+    height: 100vh;
+    /* padding: 5px 5px 0px 5px; */
+    overflow: scroll;
+    position: fixed;
+    left: -5vw;
+    top: 0px;
+    z-index: 6000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+#apropos p {
+    /* width: 80vw; */
+    width: 40vw;
+    height: auto;
+    margin: 100px auto;
+    font-size: 1.1em;
+   font-family: 'Anonymous Pro', monospace;
+    color: black;
+    font-weight: 400;
+    padding: 30px 2em 20px 2em;
+    vertical-align: top;
+    text-align: left;
+    background-color: white;
+    border: 2px solid;
+
+  }
+
+
+
+
+ /* unvisited link */
+#apropos a:link {
+  color: black;
+  border: 2px solid;
+  text-decoration: none;
+  font-style: normal;
+  padding: 10px;
+  margin:  10px;
+  font-size: 0.8em;
+align-content: center;
+transition: 0.5s all ease-in-out;
+}
+
+/* visited link */
+#apropos a:visited {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s all ease-in-out;
+}
+
+/* mouse over link */
+#apropos a:hover {
+color: black;
+   border: 2px solid;
+   background-color: #F97878;
+}
+
+
+
+  #extra {
+    display: flex;
+    border: 2px solid;
+width: 100%;
+justify-content: space-evenly;
+height: auto;
+margin: 15px;
+padding: 10px;
+
+
+}
+#extra h1 {
+font-family: martel;
+font-size: 2em;
+margin: 0px;
+ height: 60px;
+  padding: 20px;
+  text-align: center;
+   align-items: center;
+}
+
+
+
+.footer {
+  height: 40%;
+    z-index: 5;
+  
+padding: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+text-align: center;
+   align-items: center;
+   font-family: 'Anonymous Pro', monospace;
+   border-top: 2px solid black;
+}
+
+  /* virus page */
+
+
+
+  #video {
+    position: relative;
+   padding: 15px;
+   top: 100px;
+    width: 100%;
+
+overflow: hidden;
+      }
+
+#banner {
+    position: relative;
+   padding: 15px;
+   top: 100px;
+    width: 100%;
+height: 80vh;
+overflow: hidden;
+      }
+
+
+#desc {
+ 
+  display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 100px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+ text-align: center;
+   align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#desc li {
+width: 50%;
+padding: 1em 1em;
+border-left:  0px solid #FFCACA;
+border-bottom:  0px solid #FFCACA;
+}
+
+h2 {
+font-size: 4em;
+ font-family: 'Anonymous Pro', monospace;
+ text-align: left;
+
+
+}
+h3 {
+
+}
+
+p {
+  font-size: 1.2em;
+  text-align: left;
+
+}
+
+.img1 {
+max-width: 100%;
+width: 92%;
+transform: rotate(1deg);
+border: 2px solid;
+
+}
+
+.img2 {
+max-width: 100%;
+width: 92%;
+transform: rotate(-2deg);
+border: 2px solid;
+}
+
+.img3 {
+  max-width: 100%;
+  border: 2px solid;
+}
