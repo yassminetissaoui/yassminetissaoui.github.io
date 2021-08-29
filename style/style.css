@@ -58,7 +58,7 @@ font-weight: 800;
 
 }
 #header a {
-  color: black	;
+  color: black  ;
   text-align: center;
   text-decoration: none;
     padding: 0.5em 0.5em;
@@ -144,7 +144,7 @@ position: absolute;
 display: flex;
 position: absolute;
   z-index: 600;
-  top: 995px; 
+  top: 989px; 
   
 
 }
