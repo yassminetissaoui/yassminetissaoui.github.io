@@ -220,7 +220,6 @@ transition: 0.2s all ease-in-out;
 #apropos {
   width: 105vw;
     height: 100vh;
-    /* padding: 5px 5px 0px 5px; */
     overflow: scroll;
     position: fixed;
     left: -5vw;
@@ -234,7 +233,6 @@ transition: 0.2s all ease-in-out;
 
 
 #apropos p {
-    /* width: 80vw; */
     width: 40vw;
     height: auto;
     margin: 100px auto;
@@ -360,22 +358,26 @@ overflow: hidden;
  text-align: center;
    align-items: center;
     justify-content: space-evenly;
+    border-top: 2px solid;
     
     
 }
 
 #desc li {
+  z-index: 6;
 width: 40%;
 padding: 1em 1em;
-
+margin: 0.5em;
 border-left:  0px solid #FFCACA;
 border-bottom:  0px solid #FFCACA;
+
 }
 
 h2 {
 font-size: 4em;
  font-family: 'Anonymous Pro', monospace;
- text-align: left;
+ font-weight: bolder;
+ text-align: center;
 
 
 }
@@ -385,27 +387,47 @@ h3 {
 
 p {
   font-size: 1.2em;
-  text-align: left;
+  text-align: justify;
 
 }
 
 .img1 {
 max-width: 100%;
+max-height: 100%;
 width: 92%;
 transform: rotate(1deg);
 border: 2px solid;
-
+transition: 0.5s all ease-in-out;
 }
+
+
+.img1:hover{
+            transform: scale(1.2) rotate(0deg);
+        }
+
 
 .img2 {
 max-width: 100%;
 width: 92%;
 transform: rotate(-2deg);
 border: 2px solid;
+transition: 0.5s all ease-in-out;
 }
 
+.img2:hover{
+transform: scale(1.2) rotate(0deg);
+
+}
 .img3 {
   max-width: 100%;
   border: 2px solid;
+  max-height: 100%;
+  transition: 0.5s all ease-in-out;
+
+
 }
 
+.img3:hover{
+transform: scale(1.2) rotate(0deg);
+
+}
