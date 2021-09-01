@@ -5,10 +5,18 @@
 
 body {
  line-height: 1.2;
-
+/*background-color: rgba(249, 120, 120, 1.0); */
 font-family: 'Anonymous Pro', monospace;
 }
 html{scroll-behavior:smooth}
+
+#main_wrapper {
+
+width: 100%;
+min-height: 100%;
+position: relative;
+}
+
 #header {
    position: fixed;
    display: flex;
@@ -92,14 +100,14 @@ font-weight: 800;
 }
 
 
-#border {
+.border {
   border: 2px solid black;
   padding: 0.3em 0.1em 0.3em 0.1em;
  
    transition: 0.5s all ease-in-out;
 }
 
-#border:hover {
+.border:hover {
   background-color: #F97878 ;
 
   transition: 0.5s all ease-in-out;
@@ -112,14 +120,11 @@ font-weight: 800;
     width: 100%;
     height: 100%;
     z-index: 0;
-    top: 100px;
+    top: 83px;
     overflow: auto;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
-
-    
-    
 }
 
 #content li {
@@ -150,6 +155,23 @@ position: absolute;
 }
 
 
+mark {
+
+  background-color: rgba(249, 120, 120, 0.4);
+}
+
+figcaption {
+display: block;
+align-self: center;
+  font: 'Anonymous Pro', monospace;
+  font-size: 1.2em;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 1em;
+text-align: justify;
+width: 50%;
+}
 
 button {
   opacity: 1;
@@ -212,11 +234,7 @@ transition: 0.2s all ease-in-out;
   transition: 0.2s all ease-in-out;
 }
 
-
-
-
-
-
+/*about section */
 #apropos {
   width: 105vw;
     height: 100vh;
@@ -224,7 +242,7 @@ transition: 0.2s all ease-in-out;
     position: fixed;
     left: -5vw;
     top: 0px;
-    z-index: 6000;
+    z-index: 3000;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -236,7 +254,7 @@ transition: 0.2s all ease-in-out;
     width: 40vw;
     height: auto;
     margin: 100px auto;
-    font-size: 1.1em;
+    font-size: 1.2em;
    font-family: 'Anonymous Pro', monospace;
     color: black;
     font-weight: 400;
@@ -248,30 +266,28 @@ transition: 0.2s all ease-in-out;
 
   }
 
-
-
-
- /* unvisited link */
+ 
 #apropos a:link {
+
   color: black;
   border: 2px solid;
   text-decoration: none;
   font-style: normal;
   padding: 10px;
-  margin:  10px;
-  font-size: 0.8em;
+  margin:  20px 10px;
+  font-size: 1em;
 align-content: center;
+
+
 transition: 0.5s all ease-in-out;
 }
 
-/* visited link */
+
 #apropos a:visited {
   color: black;
   text-decoration: none;
   transition: 0.5s all ease-in-out;
 }
-
-/* mouse over link */
 #apropos a:hover {
 color: black;
    border: 2px solid;
@@ -279,15 +295,22 @@ color: black;
 }
 
 
+.center {
+   display: block;
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
 
+
+/*additional div, not being used 
   #extra {
     display: flex;
     border: 2px solid;
 width: 100%;
 justify-content: space-evenly;
 height: auto;
-margin: 15px;
-padding: 10px;
+
 
 
 }
@@ -300,14 +323,13 @@ margin: 0px;
   text-align: center;
    align-items: center;
 }
-
-
+*/
 
 .footer {
-  height: 40%;
+  height: 50px;
     z-index: 5;
-  
-padding: 40px;
+  background-color: white;
+
     bottom: 0;
     left: 0;
     right: 0;   
@@ -339,6 +361,8 @@ overflow: hidden;
    top: 100px;
     width: 100%;
 height: 80vh;
+margin-left: auto;
+margin-right: auto;
 overflow: hidden;
       }
 
@@ -378,17 +402,14 @@ font-size: 4em;
  font-family: 'Anonymous Pro', monospace;
  font-weight: bolder;
  text-align: center;
-
-
-}
-h3 {
-
+ border: 2px solid;
 }
 
-p {
+#desc p {
   font-size: 1.2em;
   text-align: justify;
-
+border: 2px solid;
+padding: 1em;
 }
 
 .img1 {
@@ -402,12 +423,12 @@ transition: 0.5s all ease-in-out;
 
 
 .img1:hover{
-            transform: scale(1.2) rotate(0deg);
+            transform: scale(1.1) rotate(0deg);
         }
 
 
 .img2 {
-max-width: 100%;
+width: 100%;
 width: 92%;
 transform: rotate(-2deg);
 border: 2px solid;
@@ -415,11 +436,11 @@ transition: 0.5s all ease-in-out;
 }
 
 .img2:hover{
-transform: scale(1.2) rotate(0deg);
+transform: scale(1.1) rotate(0deg);
 
 }
 .img3 {
-  max-width: 100%;
+  width: 100%;
   border: 2px solid;
   max-height: 100%;
   transition: 0.5s all ease-in-out;
@@ -428,6 +449,19 @@ transform: scale(1.2) rotate(0deg);
 }
 
 .img3:hover{
-transform: scale(1.2) rotate(0deg);
+transform: scale(1.1) rotate(0deg);
+
+}
+
+.img4 {
+  max-width: 100%;
+  border: 2px solid;
+  max-height: 100%;
+  transition: 0.5s all ease-in-out;
+
+
+}
+.img4:hover{
+transform: scale(1.1) rotate(0deg);
 
 }
