@@ -140,17 +140,7 @@ position: relaive;
 display: flex;
 position: absolute;
   z-index: 600;
-  top: 430px; 
-  
-
-}
-
-
-.container2 {
-display: flex;
-position: absolute;
-  z-index: 600;
-  top: 989px; 
+  top: 438px; 
   
 
 }
