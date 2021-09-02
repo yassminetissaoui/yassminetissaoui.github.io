@@ -132,6 +132,7 @@ width: 50%;
 padding: 1em 1em;
 border-left:  0px solid #FFCACA;
 border-bottom:  0px solid #FFCACA;
+position: relaive;
 }
 
 
@@ -139,7 +140,7 @@ border-bottom:  0px solid #FFCACA;
 display: flex;
 position: absolute;
   z-index: 600;
-  top: 460px; 
+  top: 430px; 
   
 
 }
@@ -207,6 +208,7 @@ transition: 0.2s all ease-in-out;
 
  .thumbnail {
    overflow: hidden;
+   position: relative;
    display: block;
   margin: 0 auto;
             width: 100%;
