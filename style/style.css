@@ -218,7 +218,7 @@ opacity: 0;
 #grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     position: relative;
     width: 60vw;
     top: 30vh;
@@ -295,7 +295,7 @@ article .span{
 }
 */
 h3 {
-
+width: 60vw;
   font-size:3em;
   font-family: 'platelet', sans-serif;
 font-weight: 400;
@@ -348,15 +348,16 @@ mark {
 
 .imgwrap img {
 
-      transition: 1s;
+      transition: 0.3s;
       border-radius: 0px;
     width: 100%;
+
 }
 
 .imgwrap img:hover {
   /* webkit-filter: blur(4px);  Chrome, Safari, Opera 
     filter: blur(4px);*/
-    opacity: 0.5;
+    opacity: 0.3;
     }
 
 
