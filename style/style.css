@@ -1,3 +1,5 @@
+h4
+
 * {
   box-sizing: border-box;
 }
@@ -321,8 +323,8 @@ h4 {
   font-weight: 400;
   font-style: normal;
   transition: 1s;
-  line-height: 3em;
-  letter-spacing: 0.05em;
+  line-height: 2em;
+  letter-spacing: 0em;
 
   text-transform: uppercase;
   margin: auto;

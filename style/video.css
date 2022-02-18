@@ -100,7 +100,11 @@ body {
   display: table;
 }
 
-#video-1:checked ~ .video-1, #video-2:checked ~ .video-2, #video-3:checked ~ .video-3, #video-4:checked ~ .video-4, #video-5:checked ~ .video-5, #video-6:checked ~ .video-6 {
+#video-1:checked ~ .video-1, #video-2:checked ~ .video-2, #video-3:checked ~ .video-3,
+#video-4:checked ~ .video-4, #video-5:checked ~ .video-5, #video-6:checked ~ .video-6,
+#video-7:checked ~ .video-7, #video-8:checked ~ .video-8, #video-9:checked ~ .video-9 
+
+{
   animation: 1200ms fadeIn ease;
   animation-fill-mode: both;
   opacity: 1;
@@ -247,7 +251,10 @@ body {
     width: 100%;
   }
 
-  #video-1:checked ~ .video-1, #video-2:checked ~ .video-2, #video-3:checked ~ .video-3, #video-4:checked ~ .video-4, #video-5:checked ~ .video-5, #video-6:checked ~ .video-6 {
+  #video-1:checked ~ .video-1, #video-2:checked ~ .video-2, #video-3:checked ~ .video-3,
+   #video-4:checked ~ .video-4, #video-5:checked ~ .video-5, #video-6:checked ~ .video-6,
+#video-7:checked ~ .video-7, #video-8:checked ~ .video-8, #video-9:checked ~ .video-9 
+    {
     width: 100%;
   }
 
