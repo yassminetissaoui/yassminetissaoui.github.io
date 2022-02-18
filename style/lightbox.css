@@ -150,7 +150,16 @@ img.hover-shadow {
 
 .caption {
   text-align: center;
-  background-color: white;
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0.85);
+color: white;
  width: 100%;
  margin: auto;
 }
+
+
+
+
+
+
+

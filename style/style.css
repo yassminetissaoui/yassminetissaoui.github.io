@@ -11,7 +11,7 @@ background-color: rgb(245, 249, 250);
 font-family: 'Gotu', sans-serif;
 font-weight: 400;
 font-style: normal;
-background-color: ;
+
 font-size: 0.8em;
 }
 
@@ -32,6 +32,14 @@ top: 0px;
   z-index: -50;
 
 }
+
+#scene{
+  width: 100%;
+}
+
+
+
+
 
 
 
@@ -74,6 +82,7 @@ font-style: normal;
 font-size: 2.4em;
 text-align: left;
 padding-left: 20px;
+line-height: 1.5;
 
 
 } 
@@ -218,7 +227,7 @@ opacity: 0;
 #grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     position: relative;
     width: 60vw;
     top: 30vh;
@@ -236,7 +245,7 @@ opacity: 0;
   
   background-color: black;
 }
-}
+
 
 #top {
   top: 150px;
@@ -260,10 +269,10 @@ article {
 }
 article figcaption {
   position: absolute;
-  padding:5em;
+/*  padding:5em;*/
   
-  line-height: 1.2;
-  margin-bottom: 2.2em;
+  line-height: 5;
+/*s*/
   color: white;
   top: 1000px;
 
@@ -286,14 +295,6 @@ article .span{
 }
 
 
-/*#premier {
-  grid-column: 3/5;
-}
-
-#sex {
-  grid-column: 2/4;
-}
-*/
 h3 {
 width: 60vw;
   font-size:3em;
@@ -342,23 +343,18 @@ mark {
     display: inline-block;
     overflow: hidden;
   width: 100%;
-
+position: absolute;
 }
 
 
 .imgwrap img {
 
-      transition: 0.3s;
+   /*   transition: 0.3s;*/
       border-radius: 0px;
     width: 100%;
+object-fit: cover;
 
 }
-
-.imgwrap img:hover {
-  /* webkit-filter: blur(4px);  Chrome, Safari, Opera 
-    filter: blur(4px);*/
-    opacity: 0.3;
-    }
 
 
 
@@ -369,12 +365,13 @@ h5 {
  font-weight: 800;
  text-transform: uppercase;
   letter-spacing: 0.1em;
-  border: 1px ;
+width: 100%;
   color: white;
   text-align: center;
  /* top: 150px;*/
 /*  left: 100px;*/
   position: absolute;
+   background-color: rgba(0, 0, 255, 0.8);
 }
 
 h6 {
@@ -382,6 +379,7 @@ h6 {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-top: 0.3em;
+
 }
 
 /*img {
@@ -621,9 +619,7 @@ transition: 0.5s all ease-in-out;
   width: 100%;
 }
 
-.rot {
 
-} 
 
 .rot2 {
   transform: rotate(-10deg);
@@ -818,6 +814,21 @@ margin-right: auto;
   width: 20vw;
   height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*traversee*/
+
+
+
 
 
 
