@@ -16,7 +16,8 @@
       <a href="https://yassminetissaoui.github.io" target="_blank">portfolio</a>
     </h2>
     <p>
-    .
+    Mon sujet de mémoire porte sur la création des jeux vidéos indépendents/alternatifs à l'aide des logiciels FOSS et le role renouvellé du graphiste avec ces nouvelles technologies et son 
+    apport dans le renouvellement d'expériences de jeu.
     </p>
   </aside>
 
@@ -68,7 +69,7 @@
   / ___ \| |  | |_| | (__| |  __/
  /_/   \_\_|   \__|_|\___|_|\___|
  -->
- <article class="filterDiv UI Numérique">
+ <article class="filterDiv UX Numérique">
     <h3>
       KARE, Susan.  
     </h3>
