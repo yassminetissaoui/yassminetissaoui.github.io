@@ -16,8 +16,8 @@
       <a href="https://yassminetissaoui.github.io" target="_blank">portfolio</a>
     </h2>
     <p>
-    Mon sujet de mémoire porte sur la création des jeux vidéos indépendents à l'aide des logiciels FOSS, le role que peut jouer le graphiste avec ces nouvelles technologies,
-    et l'apport de ces supports dans le renouvellement d'expériences de jeu.
+    Mon sujet de mémoire porte sur la création des jeux vidéos indépendents/alternatifs à l'aide des logiciels FOSS et le role renouvellé du graphiste avec ces nouvelles technologies et son 
+    apport dans le renouvellement d'expériences de jeu.
     </p>
   </aside>
 
