@@ -232,7 +232,7 @@ opacity: 0;
     grid-template-rows: repeat(7, 1fr);
     position: relative;
     width: 60vw;
-    top: 30vh;
+    top: 0vh;
     overflow: hidden;
     margin: 0px auto;
     grid-gap: 0px 20px;
@@ -250,7 +250,7 @@ opacity: 0;
 
 
 #top {
-  top: 150px;
+  top: 10px;
 
 
 width: 95vw;
