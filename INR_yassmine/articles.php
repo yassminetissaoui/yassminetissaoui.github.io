@@ -289,7 +289,7 @@ Cette présentation retrace la conception de la console fantaisiste PICO-8 avec 
   \/_/\/_/ \/_/ /_/  \/_/  \/_/ \/_____/ \/_____/ \/_____/ 
                                                            
  -->
- <article class="filterDiv jeu philosophie">
+ <article class="filterDiv numerique philosophie">
     <h3>
 STEYERL, Hito.
     </h3>
@@ -324,7 +324,7 @@ L'histoire qu'une «&#8201;image pauvre&#8201;» nous raconte alors va au-delà 
   \/_/\/_/ \/_/ /_/  \/_/  \/_/ \/_____/ \/_____/ \/_____/ 
                                                            
  -->
- <article class="filterDiv jeu philosophie">
+ <article class="filterDiv numerique philosophie">
     <h3>
       KANE, Carolyn L. 
     </h3>
@@ -350,7 +350,7 @@ Le livre analyse les stratégies créatives avec le glitch, le bruit et l'erreur
 
 
 
-<!-- ARTICLE 008
+<!-- ARTICLE 009
  ______   ______  ______  __   ______   __       ______    
 /\  __ \ /\  == \/\__  _\/\ \ /\  ___\ /\ \     /\  ___\   
 \ \  __ \\ \  __<\/_/\ \/\ \ \\ \ \____\ \ \____\ \  __\   
@@ -358,13 +358,13 @@ Le livre analyse les stratégies créatives avec le glitch, le bruit et l'erreur
   \/_/\/_/ \/_/ /_/  \/_/  \/_/ \/_____/ \/_____/ \/_____/ 
                                                            
  -->
- <article class="filterDiv jeu philosophie">
+ <article class="filterDiv jeu numerique">
     <h3>
       NIE, Mia. 
     </h3>
     <h4>
       <a href="https://www.liminalmag.com/interviews/cecile-richard" target="_blank">
-Interview #196 — Cécile Richard
+Interview #196 — Cecile Richard
       </a>
     </h4> 
     <h5>
@@ -374,7 +374,7 @@ Interview #196 — Cécile Richard
 I always say this: I’m obsessed with places. So it makes total sense that I would start creating my own. [...]. There’s a strong sense of nostalgia, an interest in what makes a place a place.
     </blockquote>
     <p> 
-Cécile Richard est une graphiste, réalisatrice de zine et designer de jeux habitant à Melbourne dont le travail artistique tourne souvent autour des thèmes de la mémoire, de la connexion et de l'appartenance.
+Cécile Richard est une graphiste, illustrattrice et game designer habitant à Melbourne dont le travail artistique tourne souvent autour des thèmes de la mémoire, de la connexion et de l'appartenance.
 Les œuvres les plus connues de Cécile incluent ses jeux Bitsy primées, ENDLESS SCROLL et UNDER A STAR CALLED SUN. Dans cet interview, elle parle de l'importance de trouver le bon ton pour chacun de ses jeux, et ensuite de l'mportance de créér des espaces numériques conviviales. Elle s'intéresse également au lien entre elle tant que créatrice et le joueur.
     </p>
     <h6> 
@@ -384,7 +384,7 @@ Les œuvres les plus connues de Cécile incluent ses jeux Bitsy primées, ENDLES
   </article>
 
 
-<!-- ARTICLE 009
+<!-- ARTICLE 010
  ______   ______  ______  __   ______   __       ______    
 /\  __ \ /\  == \/\__  _\/\ \ /\  ___\ /\ \     /\  ___\   
 \ \  __ \\ \  __<\/_/\ \/\ \ \\ \ \____\ \ \____\ \  __\   
@@ -416,7 +416,7 @@ Dans cet article, Harvey Allison, maîtresse de conférences en médias et commu
   
   </article>
 
-<!-- ARTICLE 010
+<!-- ARTICLE 011
  ______   ______  ______  __   ______   __       ______    
 /\  __ \ /\  == \/\__  _\/\ \ /\  ___\ /\ \     /\  ___\   
 \ \  __ \\ \  __<\/_/\ \/\ \ \\ \ \____\ \ \____\ \  __\   
@@ -434,24 +434,48 @@ The queer art of failure,
       </a>
     </h4> 
     <h5>
-Duke university press : Durham et Londres, 2011
+Duke university press&#8201;: Durham et Londres, 2011.
     </h5>
     <blockquote cit="https://www.dukeupress.edu/the-queer-art-of-failure">
 Failing is something queers do and have always done exceptionally well; for queers failure can be a style, to cite Quentin Crisp, or a way of life, to cite Foucault.
     </blockquote>
     <p> 
-Dans un système néolibéral qui repose sur l'idée que chaque individu est un architecte de son propre for-
-air, derrière chaque gagnant, il y a un
-foule de perdants. Dès l'introduc-
-à partir de Halberstam soutient
-que c'est exactement cette pression d'être
-succès avec le désir
-être pris au sérieux qui fait
-les gens restent sur les sentiers battus,
-au lieu d'explorer des terres inconnues
-rites de savoirs alternatifs
-et les stratégies queer de l'inconnu-
-ing.
+Jack Halberstam part à la recherche de modèles de parentés, d’alliances et de communautés pour faire alternative au monde néo-libéral et à l’idéologie du succès qui en façonne les subjectivités. Dans The Queer Art of Failure, Halberstam propose une méthode de déviance joyeuse par rapport à cette idéologie du succès : « d’abord, résister à la maîtrise » ; « ensuite, privilégier la naïveté et l’absurdité (la stupidité) ».
+    </p>
+    <h6> 
+    lu en novembre 2022
+    </h6>
+  
+  </article>
+
+ </article>
+
+<!-- ARTICLE 012
+ ______   ______  ______  __   ______   __       ______    
+/\  __ \ /\  == \/\__  _\/\ \ /\  ___\ /\ \     /\  ___\   
+\ \  __ \\ \  __<\/_/\ \/\ \ \\ \ \____\ \ \____\ \  __\   
+ \ \_\ \_\\ \_\ \_\ \ \_\ \ \_\\ \_____\\ \_____\\ \_____\ 
+  \/_/\/_/ \/_/ /_/  \/_/  \/_/ \/_____/ \/_____/ \/_____/ 
+                                                           
+ -->
+ <article class="filterDiv numerique philosophie">
+    <h3>
+      KARPINELLISON, Zach. 
+    </h3>
+    <h4>
+      <a href="https://rundog.art/livestreamnow/indefinite-fidelity/" target="_blank">
+Infinite fidelity,
+      </a>
+    </h4> 
+    <h5>
+Running Dog, Issue 3: Livestream now, 30 october, 2020.
+    </h5>
+    <blockquote cit="https://rundog.art/livestreamnow/indefinite-fidelity/">
+Digital media masks materiality in a complex way. It tries to hide the evidence of digital structures, objects, code and numbers by scaling up definition until the resolution flattens and crisps images, so they resemble something inscrutable, and, in many cases the faux filmic.
+
+    </blockquote>
+    <p> 
+Dans cet article, Karpinellison critique l'immatérialité des espaces numériques, ce qui fait que les utilisateurs négligent plus facilement l'impact matériel de leurs choix. Il se demande si les différences de qualité négligeables qu'offrent le 4k ou le 8k par rapport au 1080p valent les dures conséquences écologiques. Il ne se contente pas de présenter le problème, mais propose également une solution&#8201;: que les utilisateurs créent une demande d'images à basse résolution. Il suggère que la beauté peut être trouvée dans le contenu pixelisé, bien qu'il se méfie également du fait que ce mouvement soit considéré comme purement esthétique, avec des plateformes telles que TikTok proposant des filtres #glitch qui sont en fait HD, créant ainsi un simulacre de la mauvaise image.
     </p>
     <h6> 
     lu en novembre 2022
