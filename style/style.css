@@ -21,6 +21,12 @@ html{scroll-behavior:smooth}
 
 #main_wrapper {
 
+}
+
+
+h2 {
+font-size: 3em;
+}
 
 width: 100%;
 min-height: 100%;
@@ -248,6 +254,13 @@ opacity: 0;
   background-color: black;
 }
 
+
+.con {
+background-color: pink;
+width: 100%;
+margin: auto;
+
+}
 
 #top {
   top: 10px;

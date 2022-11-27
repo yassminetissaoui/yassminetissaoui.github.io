@@ -1,0 +1,130 @@
+ @font-face {
+  font-family: monogram;
+  src: url(fonts/mono.ttf);
+}
+
+ @font-face {
+  font-family: magic;
+  src: url(fonts/magic.ttf);
+}
+
+ @font-face {
+  font-family: abaddon;
+  src: url(fonts/abaddonlight.ttf);
+}
+
+ @font-face {
+  font-family: abaddon;
+  src: url(fonts/abaddon.ttf);
+  font-weight: bold;
+}
+
+body {
+background-color: grey;
+color: white;
+cursor: url("img/point.cur"), auto;
+font-family: "monogram";
+}
+
+section {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+}
+
+aside {
+width: 85vw;
+margin: 0px 0px 0px 10px;
+position: sticky;
+top: 0px;
+border-bottom: 2px solid blue;
+background-color: grey;
+z-index: 200;
+
+}
+
+article {
+width: 27vw;
+
+}
+
+h2 {
+font-family: magic;
+margin-bottom: 0.2em;
+}
+
+h3 {
+background-color: blue;
+margin: 0.4em 0em 0.4em 0em;
+font-family: "magic";
+color: white;
+}
+
+h4 {
+font-family: "magic";
+margin: 0em 0.4em 0em 0em;
+
+}
+
+h5 {
+font-family: "monogram";
+font-size: 2em;
+margin: 0px;
+}
+
+h6 {
+font-size: 1em;
+margin-top:1em;
+font-style: italic;
+font-weight: lighter;
+
+}
+
+a {
+    cursor: url("img/slct.cur"), auto;
+}
+
+button {
+    cursor: url("img/slct.cur"), auto;
+}
+
+blockquote {
+margin-top: 0px;
+color:lightblue;
+font-family: magic;
+font-size: 1.6em;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 1.1em;
+position: relative;
+left: -0.8em;
+top: 0.5em;
+color: lightblue;
+}
+
+p {
+font-family: monogram;
+font-size: 2em;
+overflow: hidden;
+margin: 0.4em 0.8em 0.4em 0em;
+line-height: 0.8em;
+color: white;
+}
+
+ul li {
+list-style: none;
+color: white;
+}
+
+span:before {
+display: block;
+content: "..."; 
+}
+
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+
