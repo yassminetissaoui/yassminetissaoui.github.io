@@ -16,7 +16,8 @@
       <a href="https://yassminetissaoui.github.io" target="_blank">portfolio</a>
     </h2>
     <p>
-   Ce mémoire s’intéresse à la sous-culture (queer) du game design qui a  émergé avec l’apparition des outils de création alternatifs accessibles au grand publique, et comment on peut approprier ces outils à destination vidéoludique pour confronter non seulement l’hégémonie et la culture mainstream des jeux vidéos, mais également la standardisation et les normes du design numérique.
+   Ce mémoire s’intéresse à la sous-culture (queer) du game design qui a  émergé avec l’apparition des outils de création alternatifs accessibles au grand publique, et à la manière avec laquelle on peut approprier ces outils à destination vidéoludique pour confronter non seulement l’hégémonie et la culture mainstream des jeux vidéos, mais également la standardisation et les normes du design numérique.
+
     </p>
 
     <p> <b> Glossaire</b>&#8201;: 
