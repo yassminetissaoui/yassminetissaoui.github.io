@@ -306,9 +306,11 @@ Poor images are thus popular images—images that can be made and seen by the ma
     </blockquote>
     <p> 
 Cet article est une brève étude de l'état actuel des médias audiovisuels qui circulent dans le monde. Plus précisément, Steyerl discute du statut de l'image pauvre dans le contexte de la qualité, et de son état éphémère au fur et à mesure qu'elle devient plus largement accessible et voyage sur les différents supports par lesquels nous accédons aux œuvres audiovisuelles. 
-
+        <span id="dots4"></span><span id="more4">
 L'histoire qu'une «&#8201;image pauvre&#8201;» nous raconte alors va au-delà du contenu et de la substance, mais nous fait plutôt apprécier ces derniers sous leur forme différente, imparfaite et pauvre. L'élément pauvre de l'image indique jusqu'où et combien de fois une image a voyagé, ce qui, pour moi, donne simplement une plus grande valeur à l'œuvre. Il n'est plus possible de lui donner un chiffre comme YouTube peut fournir des statistiques en termes de "vues". Au lieu de cela, nous déduisons l'histoire et le statut de l'image à partir de son état actuel. 	
+        </span>
     </p>
+    <button onclick="myFunction4()" id="myBtn4">Read more</button>
     <h6> 
     lu en octobre 2022.
     </h6>

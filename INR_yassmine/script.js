@@ -46,3 +46,22 @@ function myFunction3() {
     more3Text.style.display = "inline";
   }
 }
+
+
+function myFunction4() {
+  var dots = document.getElementById("dots4");
+  var more4Text = document.getElementById("more4");
+  var btn4Text = document.getElementById("myBtn4");
+
+  if (dots.style.display === "none") {
+    dots4.style.display = "inline";
+    btn4Text.innerHTML = "Read more"; 
+    more4Text.style.display = "none";
+  } else {
+    dots4.style.display = "none";
+    btn4Text.innerHTML = "Read less"; 
+    more4Text.style.display = "inline";
+  }
+}
+
+
